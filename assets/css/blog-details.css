@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+.blogs{
+    font-family: 'Jost', sans-serif;
+}
+.text-button{
+    color: #111228;
+}
+.bg-button{
+    background-color: #111228;
+}
+.blabla h2{
+    font-size: 21px;
+    font-weight: 600;
+}
+.card-img{
+    background-color: #f7f7f7;
+}
+.drop-cap {
+    font-size: 35px;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #111228 ;
+    line-height: 50px ;
+    text-align: center;
+    margin: 13px 18px 0 0;
+}
+.tag-div .right-div a:hover{
+    color:#6c6c74 !important; ;
+
+}
+.tag-div .left-div a:hover{
+    color: black !important;
+}
+.back a .back-icon{
+    width: 50px !important;
+    height: 50px !important;
+}
+.back a .back-icon{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.back a:hover .back-icon{
+    transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+}
+@media(max-width:586px){
+    .tag-div{
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+    .tag-div .left-div{
+        margin-bottom: 20px;
+    }
+    .blog-bloger{
+        flex-direction: column !important;
+        align-items: start;
+        row-gap: 10px;
+    }
+    .opinion{
+        padding: 20px !important;
+    }
+}
+@media(max-width:992px){
+    .card-info{
+        margin-top: 30px !important;
+    }
+}
